@@ -31,33 +31,33 @@ const Navbar = () => {
           textUnderlineOffset:'5px', 
           textDecoration: isActive ? 'underline' : 'none' ,
           color:'var(--secondary-color)' ,    
-      })}
+      })}    
         >
-        <h5>Home</h5></NavLink>
+        <h5  data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Home</h5></NavLink>
         <NavLink className="nav-link text-center p-2" aria-current="page" to="/about"
          style={({isActive})=>({ 
           textUnderlineOffset:'5px', 
           textDecoration: isActive ? 'underline' : 'none' ,
           color:'var(--secondary-color)' ,    
-      })}><h5>About</h5></NavLink>
+      })}><h5 data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">About</h5></NavLink>
         <NavLink className="nav-link text-center p-2" aria-current="page" to="/gallery"
          style={({isActive})=>({ 
           textUnderlineOffset:'5px', 
           textDecoration: isActive ? 'underline' : 'none' ,
           color:'var(--secondary-color)' ,    
-      })}><h5>Gallery</h5></NavLink>
+      })}><h5 data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Gallery</h5></NavLink>
         <NavLink className="nav-link text-center p-2" aria-current="page" to="/services"
          style={({isActive})=>({ 
           textUnderlineOffset:'5px', 
           textDecoration: isActive ? 'underline' : 'none' ,
           color:'var(--secondary-color)' ,    
-      })}><h5>Services</h5></NavLink>
+      })}><h5 data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Services</h5></NavLink>
         <NavLink className="nav-link text-center p-2" aria-current="page" to="/contact"
          style={({isActive})=>({ 
           textUnderlineOffset:'5px', 
           textDecoration: isActive ? 'underline' : 'none' ,
           color:'var(--secondary-color)' ,    
-      })}><h5>Contact Us</h5></NavLink>
+      })}><h5 data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">Contact Us</h5></NavLink>
       </div>
     </div>
   </div>
