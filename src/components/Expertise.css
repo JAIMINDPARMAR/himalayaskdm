@@ -1,0 +1,36 @@
+.expertisecontainer{
+    background-color: var(--secondary-color);
+}
+.img-expertise{
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    
+    cursor: pointer;
+    transition: all ease 0.4s;
+    border-radius: 50px;
+}
+.img-expertise:hover{
+    transform: scale(1.1);
+}
+.Ep{
+ color: gray;
+ font-weight: bold;
+ font-family: var(--para-font);
+}
+.Eh{
+    font-size: 50px;
+    color: var(--primary-color);
+    font-family: var(--head-font);
+}
+.Et{
+    color: var(--primary-color);
+    font-size: large;
+   
+   }
+   .maragin{
+    margin-right: 0%;
+    margin-left:0% ;
+   }
+   

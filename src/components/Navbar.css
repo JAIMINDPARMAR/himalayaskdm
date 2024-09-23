@@ -1,0 +1,10 @@
+.nav-link{
+    color: var(--secondary-color);
+}
+nav{
+    background-color: var(--primary-color);
+}
+.logo{
+    height: 9vh;
+    border-radius: 5%;
+}

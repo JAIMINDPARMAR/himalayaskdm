@@ -1,0 +1,41 @@
+.pdecontainer{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.imgid5{
+    height: 300px;
+    align-items: center;
+    margin-left: 10%;
+    padding: 10%;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.imgid5:hover{
+    transform: scale(1.1);
+    
+}
+.img6{
+    padding: 10%;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.img6:hover{
+    transform: scale(1.1);
+    
+}
+.maraginn{
+    margin-left:0% ;
+    margin-right: 0%;
+}
+#km{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    margin: auto;
+    transition: all ease .4s;
+    text-decoration: none;
+    
+}
+#km:hover{
+    transform: scale(1.1);
+}
