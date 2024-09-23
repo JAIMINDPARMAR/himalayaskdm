@@ -4,6 +4,7 @@ import Servicetwo from '../components/Servicetwo'
 import Servicethree from '../components/Servicethree'
 
 const Services = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Serviceone/>

@@ -6,6 +6,7 @@ import Carousel from '../components/Carousel'
 import Aboutimg from '../components/Aboutimg'
 
 const About = () => {
+  window.scrollTo(0, 0);
   return (
     <div>
       <Carouselheroa/>
