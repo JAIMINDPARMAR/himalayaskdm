@@ -18,7 +18,7 @@ const Servicelist = () => {
                   <br className=" md-none" />
                   <h6 className="headser">Lorem ipsum dolor</h6>
                   <br className=" md-none" />
-                  <p>
+                  <p className="p-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia autem officiis optio! Repellendus nihil rem
                     molestiae, quidem, nam minus officiis, illum explicabo quo
@@ -26,9 +26,12 @@ const Servicelist = () => {
                     illum explicabo quo
                   </p>
                   <br />
-                  <NavLink to="/about" style={{
+                  <NavLink className="p-2" to="/about" style={{
                     color:'var(--secondary-color)'
-                  }}>Know More </NavLink>
+                  }}>Know More  </NavLink>
+<br className=" md-none" />
+<br className=" md-none" />
+
                 </div>
               </div>
 
@@ -40,7 +43,7 @@ const Servicelist = () => {
                   <br className=" md-none" />
                   <h6 className="headser">ipsum dolor</h6>
                   <br className=" md-none" />
-                  <p>
+                  <p className="p-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia autem officiis optio! Repellendus nihil rem
                     molestiae, quidem, nam minus officiis, illum explicabo quo
@@ -48,9 +51,12 @@ const Servicelist = () => {
                     culpa 
                   </p>
                   <br />
-                  <NavLink to="/about" style={{
+                  <NavLink className="p-2" to="/about" style={{
                     color:'var(--secondary-color)'
-                  }}>Know More </NavLink>
+                  }}>Know More  </NavLink>
+<br className=" md-none" />
+<br className=" md-none" />
+
                 </div>
               </div>
               <div className="col-md-3 ">
@@ -61,17 +67,20 @@ const Servicelist = () => {
                   <br className=" md-none" />
                   <h6 className="headser">ipsum dolor</h6>
                   <br className=" md-none" />
-                  <p>
+                  <p className="p-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia autem officiis optio! Repellendus nihil rem
                     molestiae, quidem, nam minus officiis, illum explicabo quo
                     culpa quae architecto officia? Quaerat, expedita molestiae! illum explicabo quo
-                    culpa quae architecto 
+                    
                   </p>
                   <br />
-                  <NavLink to="/about" style={{
+                  <NavLink className="p-2" to="/about" style={{
                     color:'var(--secondary-color)'
-                  }}>Know More </NavLink>
+                  }}>Know More  </NavLink>
+<br className=" md-none" />
+<br className=" md-none" />
+
                 </div>
               </div>
               <div className="col-md-3 ">
@@ -82,21 +91,24 @@ const Servicelist = () => {
                   <br className=" md-none" />
                   <h6 className="headser">ipsum dolor</h6>
                   <br className=" md-none" />
-                  <p>
+                  <p className="p-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia autem officiis optio! Repellendus nihil rem
                     molestiae, quidem, nam minus officiis, illum explicabo quo
                     culpa quae architecto officia? Quaerat, expedita molestiae!
                   </p>
                   <br className=" md-none" />
-                  <br className=" md-none" />
-                  <NavLink to="/about" style={{
+                  
+                  <NavLink className="p-2" to="/about" style={{
                     color:'var(--secondary-color)'
-                  }}>Know More </NavLink>
-                  <br className=" md-none" />
+                  }}>Know More  </NavLink>
+<br className=" md-none" />
+<br className=" md-none" />
+
+                  
                 </div>
               </div>
-              <br className="" />
+              
               <br className=" md-none" />
               <nav className="navbar navbar-expand-lg navbar-light homeLine ">
                 <div className="container"></div>

@@ -6,12 +6,12 @@ import'./Wcu.css';
 const Wcu = () => {
   return (
     <>
-      <div className="conatainer mt-5">
-        <div className="container">
-        <div className="row" style={{ marginLeft: "0", marginRight: "0" }}>
+      <div className="conatainer mt-5 mb-5">
+        <div className="container mt-5">
+        <div className="row mt-5" style={{ marginLeft: "0", marginRight: "0" }}>
           <h1
-            className="text-center  "
-            style={{ color: "var(--secondary-color)" }}
+            className="text-center mt-5  "
+            style={{ color: "var(--secondary-color)" ,fontFamily:'var(--head-font)'}}
           >
             <strong>Why Choose Us ?</strong>
           </h1>
@@ -38,7 +38,7 @@ const Wcu = () => {
               <br />
             </div>
           </div>
-          <div className="col-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2 mt-5">
+          <div className="col-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2 mt-5 mb-5">
             <div
               className=""
                

@@ -1,21 +1,22 @@
 .expertisecontainer{
     background-color: var(--secondary-color);
+    border-radius: 10px;
 }
 .img-expertise{
     width: 90%;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
-    
+    height: 455px;
     cursor: pointer;
-    transition: all ease 0.4s;
+    transition: all ease .9s;
     border-radius: 50px;
 }
 .img-expertise:hover{
-    transform: scale(1.1);
+    transform:translate(5px,5px);
 }
 .Ep{
- color: gray;
+ color: white;
  font-weight: bold;
  font-family: var(--para-font);
 }
@@ -34,3 +35,17 @@
     margin-left:0% ;
    }
    
+
+   @media screen and (max-width:600px) {
+    .img-expertise{
+     width: 90%;
+     padding-top: 5%;
+     padding-bottom: 5%;
+     padding-left: 5%;
+     height: auto;
+     cursor: pointer;
+     transition: all ease 2.9s;
+     border-radius: 50px;
+ }
+    
+}

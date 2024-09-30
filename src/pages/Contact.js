@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <Contactone/>
-      <Contactuscard/>
+      <Contactuscard title='Leave A Comment For Us'/>
     </div>
   )
 }

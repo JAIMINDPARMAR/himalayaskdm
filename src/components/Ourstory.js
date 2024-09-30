@@ -5,11 +5,11 @@ const Ourstory = () => {
     <>
       <div
         className="container"
-        style={{ backgroundColor: "var(--secondary-color)" }}
+        style={{ backgroundColor: "var(--secondary-color)" , borderRadius: "10px" }}
       >
         <div className="row p-2 mb-5">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6">
-            <h5 className="p-2" style={{ color: "gray" }}>
+            <h5 className="p-2 pt-5 " style={{ color: "var(--primary-color)" }}>
               Our Story
             </h5>
             <h1
@@ -23,7 +23,7 @@ const Ourstory = () => {
               Creating Great Event Experiences -
             </h1>
             <p
-            className="lead p-2 mb-2"
+            className="lead p-2 mt-5 mb-5"
             style={{
               color: "var(--primary-color)",
               fontFamily: "var(--head-para)",

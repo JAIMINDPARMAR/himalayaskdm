@@ -5,10 +5,10 @@ import "./Aboutimg.css";
 const Aboutimg = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mb-5">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6">
-            <div className="imgadiv" style={{position:'relative',height:'400px',
+            <div className="imgadiv" style={{position:'relative',height:'400px', backgroundColor:'black'
                   }}>
               <img
                 src={aimgone}
@@ -32,7 +32,7 @@ const Aboutimg = () => {
             transform: 'translate(-50%, -50%)',
             textAlign:'center' 
 }}>
-                    <h4 className="text-center" style={{fontFamily:'var(--para-font)',color:'var(--secondary-color)',fontWeight:'bold'}}>Wedding & ceremonies</h4>
+                    <h4 className="text-center" style={{fontFamily:'var(--para-font)',color:'var(--primary-color)',fontWeight:'bold'}}>Wedding & ceremonies</h4>
                 </div>
                 <div className=""  style={{
                   
@@ -42,12 +42,12 @@ const Aboutimg = () => {
             transform: 'translate(-50%, -50%)',
             textAlign:'center' 
 }}>
-                    <h1 className="text-center" style={{fontFamily:'var(--head-font)',color:'var(--secondary-color)'}}>Life is an event make it memorable</h1>
+                    <h1 className="text-center" style={{fontFamily:'var(--head-font)',color:'var(--primary-color)'}}>Life is an event make it memorable</h1>
                 </div>
                 </div>
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6">
-            <div className="imgadiv" style={{position:'relative'}}>
+            <div className="imgadiv" style={{position:'relative', backgroundColor:'black'}}>
               <img
                 src={aimgtwo}
                 style={{
@@ -70,7 +70,7 @@ const Aboutimg = () => {
             transform: 'translate(-50%, -50%)',
             textAlign:'center' 
 }}>
-                    <h4 className="text-center" style={{fontFamily:'var(--para-font)',color:'var(--secondary-color)',fontWeight:'bold'}}>Corporate Events</h4>
+                    <h4 className="text-center" style={{fontFamily:'var(--para-font)',color:'var(--primary-color)',fontWeight:'bold'}}>Corporate Events</h4>
                 </div>
                 <div className=""  style={{
                   
@@ -80,7 +80,7 @@ const Aboutimg = () => {
             transform: 'translate(-50%, -50%)',
             textAlign:'center' 
 }}>
-                    <h1 className="text-center" style={{fontFamily:'var(--head-font)',color:'var(--secondary-color)'}}>Our business is making memories</h1>
+                    <h1 className="text-center" style={{fontFamily:'var(--head-font)',color:'var(--primary-color)'}}>Our business is making memories</h1>
                 </div>
                 </div>
           </div>

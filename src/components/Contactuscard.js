@@ -1,7 +1,7 @@
 import React from "react";
 import img4 from "./images/img4.jpeg";
 import './Contactuscard.css';
-const Contactuscard = () => {
+const Contactuscard = (props) => {
   return (
     <>
       <div
@@ -14,30 +14,32 @@ const Contactuscard = () => {
         <h1 style={{
           color:'white'
           ,fontFamily:'var(--head-font)'
-        }} className="text-center display-6 ">Leave A Comment For US</h1>
-          <div class="form-floating mb-3 mt-5 " >
+        }} className="text-center display-6 ">{props.title}</h1>
+          <div className="form-floating mb-3 mt-5 " >
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="floatingInput"
               placeholder="name@example.com"
             />
-            <label for="floatingInput">Email address</label>
+            <label htmlFor="floatingInput">Email address</label>
           </div>
-          <div class="form-floating mb-3">
+          <div className="form-floating mb-3">
             <input
               type="text"
-              class="form-control "
+              className="form-control "
               id="floatingName"
               placeholder="Name"
             />
-            <label for="floatingPassword">Name</label>
+            <label htmlFor="floatingPassword">Name</label>
           </div>
-          <div class="form-floating mb-3" >
-          <textarea class="form-control" style={{resize:'none'}} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-          <label for="floatingTextarea">Comments</label>
+          <div className="form-floating mb-3" >
+          <textarea className="form-control" style={{resize:'none'}} placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label htmlFor="floatingTextarea">Comments</label>
           </div>
-          <button className="btn btn-primary px-3" style={{display:'flex',margin:'auto'}}>Submit  </button>
+          <button className="btn btn-danger px-3" style={
+            {display:'flex',margin:'auto',backgroundColor:'var(--secondary-color)'}}>
+              Submit  </button>
         </form>
       </div>
     </>

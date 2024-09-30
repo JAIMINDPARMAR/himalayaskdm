@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom'
 const Oeg = () => {
   return (
     <>
-    <section class="galleryHome">
-        <div class="container my-5" style={{backgroundColor:'var(--secondary-color)'}}>
-            <div class="container pt-5 p-5" style={{backgroundColor:'white'}}>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
+    <section className="galleryHome">
+        <div className="container my-5" style={{backgroundColor:'var(--secondary-color)'}}>
+            <div className="container pt-5 p-5" style={{backgroundColor:'white'}}>
+                <div className="row">
+                    <div className="col-md-6 col-sm-12">
                         <h6 style={{color:'var(--secondary-color)',
                             fontFamily:'var(--para-font)'
                         }}>OUR EVENT GALLERY</h6>
@@ -20,7 +20,7 @@ const Oeg = () => {
                             Parties
                         </h1>
                     </div>
-                    <div class="col-md-6 d-none d-md-block">
+                    <div className="col-md-6 d-none d-md-block">
                         <br />
                         <p className='lead ' style={{color:'gray',
                             fontFamily:'var(--para-font)'
@@ -29,7 +29,7 @@ const Oeg = () => {
                             all our work done and get an idea of what what we do.
                         </p>
                         <div >
-                            <NavLink to="/services"><button class="btn my-2 mb-2"  style={
+                            <NavLink to="/services"><button className="btn my-2 mb-2"  style={
                                 {
                                     backgroundColor:'var(--secondary-color)',
                                     color:'var(--primary-color)'

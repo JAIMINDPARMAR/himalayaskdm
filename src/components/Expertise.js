@@ -7,14 +7,14 @@ import imgthree from './images/exptwo.jpg'
 const Expertise = () => {
   return (
     <>
-         <section class="homeSection">
-        <div class="container my-5 expertisecontainer" >
-            <div class="homeSec sectservice">
-                <div class="row maragin">
-                    <div class="col-md-6">
-                        <div class="galleryLink">
-                            <div class="gallContent">
-                                <h6 className=' p-3 Ep'>Expertise in</h6>
+         <section className="homeSection">
+        <div className="container my-5 expertisecontainer" >
+            <div className="homeSec sectservice">
+                <div className="row maragin">
+                    <div className="col-md-6">
+                        <div className="galleryLink">
+                            <div className="gallContent">
+                                <h6 className=' p-3 pt-5 Ep'>Expertise in</h6>
                                 <h1 className=' px-2 Eh'>Catering Service | <br/>Hospitality Service </h1>
                                 <p className=' px-2 mt-5 lead Et'>
                                 Custom Menus: We work closely with clients to design personalized menus that reflect their tastes and dietary preferences, from elegant hors d'oeuvres to lavish multi-course meals.
@@ -36,14 +36,14 @@ const Expertise = () => {
                 <button className='btn my-2 mb-2' id='km' >Know More</button></NavLink>
                    <br></br>
                             </div>
-                            <div class=''>
+                            <div className=''>
                                 <img className='img-expertise' src={imgone} alt=""/>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="img-expertise"><img className='img-expertise' src={imgtwo} alt=""/></div>
-                        <div class="img-expertise"><img className='img-expertise' src={imgthree} alt=""/></div>
+                    <div className="col-md-6">
+                        <div className="img-expertise"><img className='img-expertise' src={imgtwo} alt=""/></div>
+                        <div className="img-expertise"><img className='img-expertise' src={imgthree} alt=""/></div>
                     </div>
                 </div>
             </div>

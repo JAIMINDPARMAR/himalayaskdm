@@ -15,7 +15,7 @@ const Carouselhero = () => {
     <>
     <section className="homeSection mt-5" >
         
-        <div className='container'>
+        <div className='container ' style={{borderRadius: '10px'}}>
         
         
         <Swiper pagination={true} modules={[Pagination,Autoplay]} 
@@ -57,9 +57,9 @@ const Carouselhero = () => {
         </SwiperSlide>
         
       </Swiper>
-      <div class="container">
-  <nav class="navbar navbar-expand-lg " style={{backgroundColor:'var(--secondary-color)'}}>
-    <div class="container-fluid">
+      <div className="container">
+  <nav className="navbar navbar-expand-lg " style={{backgroundColor:'var(--secondary-color)'}}>
+    <div className="container-fluid">
       
     </div>
   </nav>

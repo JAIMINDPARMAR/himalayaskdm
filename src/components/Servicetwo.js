@@ -18,7 +18,7 @@ const Servicetwo = () => {
             }} alt="Himalayas" className="img-fluid p-2 mt-5"/>
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6">
-            <h5 className="p-2 pt-5" style={{ color: "gray" }}>
+            <h5 className="p-2 pt-5" style={{ color: "var(--primary-color)" }}>
             Lorem ipsum 
             </h5>
             <h1
@@ -108,7 +108,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit.
             }} alt="Himalayas" className="img-fluid p-2 mt-5"/>
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6 col-xxlg-6">
-            <h5 className="p-2 pt-5" style={{ color: "gray" }}>
+            <h5 className="p-2 pt-5" style={{ color: "var(--primary-color)" }}>
             Lorem ipsum
             </h5>
             <h1

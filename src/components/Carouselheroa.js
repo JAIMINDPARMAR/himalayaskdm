@@ -53,9 +53,9 @@ const Carouselheroa = () => {
         </SwiperSlide>
         
       </Swiper>
-      <div class="container">
-  <nav class="navbar navbar-expand-lg mb-5" style={{backgroundColor:'var(--secondary-color)'}}>
-    <div class="container-fluid">
+      <div className="container">
+  <nav className="navbar navbar-expand-lg mb-5" style={{backgroundColor:'var(--secondary-color)'}}>
+    <div className="container-fluid">
       
     </div>
   </nav>

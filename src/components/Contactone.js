@@ -4,15 +4,15 @@ const Contactone = () => {
   return (
    <>
     <div className='container mb-5' style={{backgroundColor:'var(--secondary-color)'}}>
-        <p className='text-center p-2' style={{color:'var(--primary-color)'}}>
+        <p className='text-center p-2 pt-5' style={{color:'var(--primary-color)'}}>
         Let's Connect
         </p>
-        <h1 className='text-center display-2' style={{color:'var(--primary-color)',fontFamily:'var(--head-font)'}}>
+        <h1 className='text-center display-2 pt-2' style={{color:'var(--primary-color)',fontFamily:'var(--head-font)'}}>
             Contact
         </h1>
         <div className='row'>
             <div className='col-12 col-md-4 pt-5'>
-                <h5 className='text-center p-2 pt-5' style={{color:'var(--primary-color)'}}>
+                <h5 className='text-center p-2  pt-5' style={{color:'var(--primary-color)'}}>
                 Get In Touch
                 </h5> 
                 <h5 className='text-center px-2 ' style={{color:'var(--primary-color)'}}>

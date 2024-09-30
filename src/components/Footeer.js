@@ -10,7 +10,8 @@ import mainimgtwo from './images/mainimgtwo.jpeg'
 const Footeer = () => {
   return (
     <>
-    <div className='container-fluid'>
+    <div className='container-fluid' style={{backgroundColor:'var(--secondary-color)'}}>
+      <div className='container'>
       <div className='row justify-content-evenly' style={{backgroundColor:'var(--secondary-color)',color:'var(--primary-color)'}}>
           <div className='col-12 col-md-12 col-lg-3 col-xlg-3 col-xxlg-3 p-2'>
             <img src={logo} className='mb-2' style={{height:'7vh'}} alt='Himalaya'/> <br/>
@@ -51,6 +52,7 @@ const Footeer = () => {
           </div>
           <div className='col-12 col-md-12 col-lg-6 col-xlg-6 col-xxlg-6 p-2'>
             <span><h6 className='text-center p-1'>Designed by Shree krishna digital marketing</h6></span>
+          </div>
           </div>
       </div>
     </div>

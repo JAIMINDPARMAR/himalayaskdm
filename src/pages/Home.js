@@ -9,6 +9,7 @@ import Carouselhero from '../components/Carouselhero'
 import Servicelist from '../components/Servicelist'
 import Pde from '../components/Pde'
 import Expertise from '../components/Expertise'
+import Connect from '../components/Connect'
 
 
 
@@ -18,11 +19,12 @@ const Home = () => {
     <div>
       <Carouselhero/>
       <Ourservices/>
-      <Wcu/>
       <Servicelist/>
+      <Wcu/>
       <Pde/>
       <Carousel/>
       <Expertise/>
+      <Connect/>
     </div>
   )
 }
